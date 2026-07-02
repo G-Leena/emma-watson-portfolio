@@ -6,7 +6,7 @@ import Projects from '../components/Projects'
 import Work from '../components/Work'
 import Contact from '../components/Contact'
 
-function home() {
+function Home() {
   return (
     <div>
       <Hero/>
@@ -14,11 +14,9 @@ function home() {
       <Skills/>
       <Projects/>
       <Work/>
-
       <Contact/>
-
     </div>
   )
 }
 
-export default home
+export default Home
